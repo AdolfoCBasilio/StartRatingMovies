@@ -1,0 +1,29 @@
+/* Estilos para la tarjeta */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    background-color: rgba(83, 78, 78, 0.274);
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+/* Estilos para las estrellas */
+.orange-star {
+    color: orange;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.black-star {
+    color: black;
+    font-size: 3rem;
+    cursor: pointer;
+}

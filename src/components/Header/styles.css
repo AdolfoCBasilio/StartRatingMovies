@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101c2b;
+    color: #fff;
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.432);
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__boton {
+    background-color: #fff;
+    color: #212e9c;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+}
